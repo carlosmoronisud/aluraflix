@@ -1,0 +1,21 @@
+.campo-texto {
+    margin: 24px 0;
+
+}
+.campo-texto label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+.campo-texto input {
+    background-color: #A5A5A5;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0.06);
+}
+.campo-texto input:focus {
+    outline: none;
+    background-color: #D9D9D9;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0.06);
+}
+.campo-texto input::placeholder{
+    color: #ffffff;
+}

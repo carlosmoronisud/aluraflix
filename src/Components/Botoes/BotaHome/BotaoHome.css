@@ -1,0 +1,21 @@
+
+.botaoHome {
+
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 8px 32px 8px 32px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.botaoHome:hover{
+    color: #2271D1;  
+    border: 1px solid #2271D1;
+    
+}
+.Link{
+    text-decoration: none;
+ 
+}

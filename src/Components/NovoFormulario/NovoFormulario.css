@@ -1,0 +1,14 @@
+.paginaNovoFormulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.paginaNovoFormulario h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 32px;
+    color: white;
+}

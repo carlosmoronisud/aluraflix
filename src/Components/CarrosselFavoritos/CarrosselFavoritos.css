@@ -1,0 +1,19 @@
+.carrosselFavoritos {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carrosselFavoritos-item {
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.carrosselFavoritos-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
