@@ -34,37 +34,37 @@ export default function Home() {
         const initialCards = [
             {
                 id: 1,
-                titulo: 'Título de Música',
+                titulo: 'Ed Sheeran - Perfect',
                 descricao: 'Descrição de Música',
-                video: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // Link do vídeo de música
-                thumbnailURL: getYouTubeThumbnail('https://www.youtube.com/watch?v=dQw4w9WgXcQ'),
+                video: 'https://www.youtube.com/watch?v=2Vv-BfVoq4g', // Link do vídeo de música
+                thumbnailURL: getYouTubeThumbnail('https://www.youtube.com/watch?v=2Vv-BfVoq4g'),
                 categoria: 'Musicas',
                 isFavorite: true
             },
             {
                 id: 2,
-                titulo: 'Título de Filme',
+                titulo: 'Kung Fu Panda 4',
                 descricao: 'Descrição de Filme',
-                video: 'https://www.youtube.com/watch?v=abcd1234', // Link do vídeo de filme
-                thumbnailURL: getYouTubeThumbnail('https://www.youtube.com/watch?v=abcd1234'),
+                video: 'https://www.youtube.com/watch?v=dFsnKSAGUVM', // Link do vídeo de filme
+                thumbnailURL: getYouTubeThumbnail('https://www.youtube.com/watch?v=dFsnKSAGUVM'),
                 categoria: 'Filmes',
                 isFavorite: true
             },
             {
                 id: 3,
-                titulo: 'Título de Série',
+                titulo: 'Chaves: Os Refrescos',
                 descricao: 'Descrição de Série',
-                video: 'https://www.youtube.com/watch?v=efgh5678', // Link do vídeo de série
-                thumbnailURL: getYouTubeThumbnail('https://www.youtube.com/watch?v=efgh5678'),
+                video: 'https://www.youtube.com/watch?v=Ao9NJ8iUNLo', // Link do vídeo de série
+                thumbnailURL: getYouTubeThumbnail('https://www.youtube.com/watch?v=Ao9NJ8iUNLo'),
                 categoria: 'Series',
                 isFavorite: true
             },
             {
                 id: 4,
-                titulo: 'Título de Anime',
+                titulo: 'Demon Slayer',
                 descricao: 'Descrição de Anime',
-                video: 'https://www.youtube.com/watch?v=ijkl9012', // Link do vídeo de anime
-                thumbnailURL: getYouTubeThumbnail('https://www.youtube.com/watch?v=ijkl9012'),
+                video: 'https://www.youtube.com/watch?v=wyiZWYMilgk', // Link do vídeo de anime
+                thumbnailURL: getYouTubeThumbnail('https://www.youtube.com/watch?v=wyiZWYMilgk'),
                 categoria: 'Animes',
                 isFavorite: true
             }
