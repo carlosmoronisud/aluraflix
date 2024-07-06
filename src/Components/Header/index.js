@@ -7,7 +7,7 @@ import NovoVideo from '../Botoes/NovoVideoBtn';
 export default function Header() {
     return (
         <>
-            <header>
+            <header className="main-header">
                 <div className="logo">                
                     <img src={logo} alt="logo" />
                 </div>

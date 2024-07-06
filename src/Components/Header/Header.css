@@ -9,11 +9,41 @@
 .logo {
     margin: 10px;
 }
-header{
+
+.main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-color: #262626;
     height: 100px;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-botoes {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .logo img {
+        width: 100px; /* ou o tamanho desejado para telas menores */
+    }
+}
+
+/* Media query para telas muito pequenas (celulares) */
+@media (max-width: 480px) {
+    .logo img {
+        width: 80px; /* ou o tamanho desejado para telas muito pequenas */
+    }
+
+    .container-botoes {
+        width: 100%;
+        justify-content: space-around;
+    }
 }
