@@ -27,13 +27,14 @@ footer a {
 }
 @media (max-width: 480px) {
     footer header {
-        
+        padding-top: 0;
         display: block;
     }
 
 }
 @media (max-width: 480px) {
     footer  {
+        
         position: fixed;
         bottom: 0;
     }
