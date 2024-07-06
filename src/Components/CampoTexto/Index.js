@@ -10,7 +10,7 @@ export default function CampoTexto(props) {
 
     return (
         <div className="campo-texto">
-            <label> {props.label}</label>
+            <label> </label>
             <input value={props.valor} onChange={aoDigitado}  required={props.obrigatorio} type="text" placeholder={props.placeholder}/>
         </div>
     );

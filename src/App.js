@@ -10,7 +10,7 @@ import Footer from './Components/Footer';
 function App() {
 
   const categoriaVideos = [
-    { nome: 'Selecione', },
+    { nome: 'Categorias', },
     { nome: 'Musicas', corNome: '#fff', corfundo: '#6BD1FF' },
     { nome: 'Filmes', corNome: '#E53935', corfundo: '#00C86F' },
     { nome: 'Series', corNome: '#000', corfundo: '#FFBA05' },

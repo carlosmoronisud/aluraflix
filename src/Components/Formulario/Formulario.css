@@ -1,37 +1,66 @@
+.cardForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    
+}
+.cardForm h1{    
+    width: 90%;
+    padding: 20px;
+    border-top: solid 0.5px #262626;
+    border-bottom: solid 0.5px #262626;
+    font-size: 1.5rem;
+   
+}
 .formulario{
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    width: 100%;
-    padding: 20px;
+    width: 90%;
 }
-
-.cardForm h1{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    width: 100%;
-    padding: 20px;
-    border-top: solid 1px #A5A5A5;
-    border-bottom: solid 1px #A5A5A5;
-}
-.campo-texto input {
-    background-color: #A5A5A5;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0.06);
-    width: 100%;
-    border: none;
+.campo-texto input {    
+    width: 100%;   
     font-size: 24px;
     padding: 24px;
-    box-sizing: border-box;
+    
 }
 .listas{
     display: flex;
+    flex-direction: row-;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    
+}
+.botao{
+    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     width: 100%;
     padding: 2px;
+}
+.limpar{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 8px 32px 8px 32px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.limpar:hover{
+    color: #2271D1;  
+    border: 1px solid #2271D1;
+    
 }

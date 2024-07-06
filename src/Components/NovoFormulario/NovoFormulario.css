@@ -7,8 +7,12 @@
     background-color: black;
 }
 .paginaNovoFormulario h1{
-    font-size: 3rem;
-    font-weight: 700;
-    padding: 32px;
+    font-size: 2.5rem;    
+    padding: 20px 0 0 0;
     color: white;
+}
+.paginaNovoFormulario p{
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px 0;
 }

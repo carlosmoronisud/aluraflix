@@ -24,10 +24,10 @@ export default function Home() {
     const [editCategoria, setEditCategoria] = useState('');
 
     const categoriaVideos = [
-        { nome: 'Musicas', corNome: '#fff', corfundo: '#6BD1FF' },
-        { nome: 'Filmes', corNome: '#E53935', corfundo: '#00C86F' },
-        { nome: 'Series', corNome: '#000', corfundo: '#FFBA05' },
-        { nome: 'Animes', corNome: '#00C86F', corfundo: '#E53935' }
+        { nome: 'Musicas', corNome: '#fff', corfundo: '#262626' },
+        { nome: 'Filmes', corNome: '#fff', corfundo: '#262626' },
+        { nome: 'Series', corNome: '#fff', corfundo: '#262626' },
+        { nome: 'Animes', corNome: '#fff', corfundo: '#262626' }
     ];
 
     useEffect(() => {

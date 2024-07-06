@@ -22,8 +22,13 @@ export default function CarrosselFavoritos({ cards }) {
                 
                 {cards.map((card, index) => (
                     <div key={index} className="carrosselFavoritos-item">
-                        <img src={card.thumbnailURL} alt={card.titulo} />
+                        <a href={card.video} >
+                            <img src={card.thumbnailURL} alt={card.titulo} />
+                        </a>
+                        <div className='carrosselFavoritos-item-info'>
                         <h4>{card.titulo}</h4>
+                        <p>{card.categoria}</p>
+                        </div>
                     </div>
                 ))}
             </Slider>

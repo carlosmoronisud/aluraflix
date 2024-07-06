@@ -3,7 +3,7 @@ import './ListaSuspensa.css';
 const ListaSuspensa = (props) => {
     return (
         <div className='lista-suspensa'>
-            <label>{props.Label}</label>
+            <label></label>
             <select
                 
                 onChange={evento => props.aoAlterado(evento.target.value)}

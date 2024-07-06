@@ -38,6 +38,13 @@ export default function Formulario({ categorias }) {
         setCategoria('');
     };
 
+    const limpar = () => {
+        setTitulo('');
+        setVideo('');
+        setDescricao('');
+        setCategoria('');
+    }
+
     
 
     return (
@@ -71,7 +78,10 @@ export default function Formulario({ categorias }) {
                     obrigatorio={true}
                     label="Descrição"
                     placeholder="Insira a descrição do vídeo" />
-                <CriarCard />
+                <div className='botao'>
+                    <CriarCard />
+                    <button className='limpar' onClick={limpar}>Limpar</button>
+                </div>
             </form>
         </div>
     );
