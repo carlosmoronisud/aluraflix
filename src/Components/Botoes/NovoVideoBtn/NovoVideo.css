@@ -13,3 +13,13 @@
     border: 1px solid #2271D1;
     
 }
+.botaoNovoVideo.active {
+    border: 1px solid #2271D1;
+    color: #2271D1;
+    font-weight: bold;
+}
+.botaoNovoVideo.inactive {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+}

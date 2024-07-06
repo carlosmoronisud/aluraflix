@@ -5,7 +5,7 @@ export default function CardsCategoria(props) {
     return (
         <div className="cardsCategorias">
             <div className="cardCategoria">
-                <a href={props.link} ><img src={props.imagem} alt={props.titulo} />
+                <a href={props.video} ><img src={props.imagem} alt={props.titulo} />
                 </a>
                 <h4>{props.titulo}</h4>
                 <div className="cardsCategorias-botoes">

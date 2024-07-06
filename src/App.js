@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Components/Paginas/Home';
 import NovoFormulario from './Components/NovoFormulario/index';
+import Footer from './Components/Footer';
 
 
 
@@ -29,6 +30,7 @@ function App() {
             <Route path="*" element={<div>Pagina não encontrada</div> }/>
             
           </Routes>
+        <Footer />
       </BrowserRouter>
       
 
