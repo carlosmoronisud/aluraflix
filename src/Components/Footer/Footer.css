@@ -32,6 +32,13 @@ footer a {
     }
 
 }
+@media (max-width: 480px) {
+    footer  {
+        position: fixed;
+        bottom: 0;
+    }
+
+}
 
 
 
