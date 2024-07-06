@@ -1,3 +1,14 @@
+/* Header.css */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #262626;
+    height: 100px;
+}
+
 .container-botoes {
     display: flex;
     justify-content: center;
@@ -10,40 +21,53 @@
     margin: 10px;
 }
 
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #262626;
-    height: 100px;
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: solid 1px #2271d1;
+}
+
+.nav-link.active {
+    background-color: #2271d1; /* Cor de fundo para o botão ativo */
 }
 
 /* Media query para telas menores */
 @media (max-width: 768px) {
-    .main-header {
-        flex-direction: column;
+    header {        
         height: auto;
+        padding: 20px 10px;
     }
 
     .container-botoes {
-        flex-direction: column;
-        gap: 5px;
+        
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        margin-bottom: 10px;
     }
 
     .logo img {
         width: 100px; /* ou o tamanho desejado para telas menores */
-    }
-}
-
-/* Media query para telas muito pequenas (celulares) */
-@media (max-width: 480px) {
-    .logo img {
-        width: 80px; /* ou o tamanho desejado para telas muito pequenas */
     }
 
     .container-botoes {
         width: 100%;
         justify-content: space-around;
     }
+    
 }
+@media (max-width: 480px)  {
+    header {
+       display: none;
+    }
+
+    .logo img {
+        display: none;
+    }
+    
+}
+
+
