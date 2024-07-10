@@ -17,7 +17,7 @@ export default function Header() {
                         Home
                     </Link>
                     <Link to="/novo-formulario" className={`nav-link ${location.pathname === '/novo-formulario' ? 'active' : ''}`}>
-                        Novo Formulário
+                        Adicionar vídeo
                     </Link>
                 </div>
             </header>
